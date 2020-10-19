@@ -18,7 +18,8 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"*.{js,json,md}\"",
-    "format:check": "prettier --list-different \"src/**/*.ts\" \"*.{js,json,md}\""
+    "format:check": "prettier --list-different \"src/**/*.ts\" \"*.{js,json,md}\"",
+    "test": "echo na"
   },
   "dependencies": {
     "@josephuspaye/lookup": "^0.1.1",
