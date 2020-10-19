@@ -6,8 +6,8 @@ This project is part of [#CreateWeekly](https://twitter.com/JosephusPaye/status/
 
 ## Installation
 
-```
-npm install -g @josephuspaye/lookup-cli --save
+```bash
+npm install -g @josephuspaye/lookup-cli
 ```
 
 ## Examples
