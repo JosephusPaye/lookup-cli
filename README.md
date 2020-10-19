@@ -92,20 +92,20 @@ lookup --help
 ```
 
 ```
-  Description
-    Find definitions, synonyms, and related words for the given word.
+Description
+  Find definitions, synonyms, and related words for the given word.
 
-  Usage
-    $ lookup <word> [options]
+Usage
+  $ lookup <word> [options]
 
-  Options
-    -i, --include    Include related words: one or more of `soundsLike`, `derivedForms`, `seeAlso`, `typeOf`, `partOf`, or `antonyms`, separated by a comma, or `all`  (default derivedForms,seeAlso,antonyms)
-    -v, --version    Displays current version
-    -h, --help       Displays this message
+Options
+  -i, --include    Include related words: one or more of `soundsLike`, `derivedForms`, `seeAlso`, `typeOf`, `partOf`, or `antonyms`, separated by a comma, or `all`  (default derivedForms,seeAlso,antonyms)
+  -v, --version    Displays current version
+  -h, --help       Displays this message
 
-  Examples
-    $ lookup flag
-    $ lookup flag -i derivedForms,seeAlso,antonyms
+Examples
+  $ lookup flag
+  $ lookup flag -i derivedForms,seeAlso,antonyms
 ```
 
 ## Licence
