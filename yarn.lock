@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@josephuspaye/lookup@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@josephuspaye/lookup/-/lookup-0.1.1.tgz#c43381044c4f56b56bdfebd3c782e29a8abf1a8b"
-  integrity sha512-gwPi6ZLYk1LumjVJu+WlHueb4FduhIYl1JEE0LguUHBGRIR4rYuWhE7dK1+bOp7V5yUWYxMv+VH5QfvmEfhS3A==
+"@josephuspaye/lookup@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@josephuspaye/lookup/-/lookup-0.2.0.tgz#c17d1921780a29ed874202c1edd0db91d0245f25"
+  integrity sha512-mRUAg3NrbTDkBxqkTBA1GZE/hHmpRXomwqIoUcI9Ocli7be1QF/DxMlwLl1i5Ky5RKKOH9mEMbxtS9w3x/dYSQ==
   dependencies:
     cheerio "^1.0.0-rc.3"
     httpie "^1.1.2"
@@ -16,9 +16,9 @@
   integrity sha512-fMl88ZoZXOB7VKazJ6wUMpZc9QIn+jcigSFRf2K/rrw4DcXn+/uGxlWX8DDlcE7JkwgIZ7BDH+JgxZPlc/Ap3g==
 
 "@types/node@*":
-  version "14.11.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.8.tgz#fe2012f2355e4ce08bca44aeb3abbb21cf88d33f"
-  integrity sha512-KPcKqKm5UKDkaYPTuXSx8wEP7vE9GnuaXIZKijwRYcePpZFDVuy2a57LarFKiORbHOuTOOwYzxVxcUzsh2P2Pw==
+  version "14.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.6.tgz#146d3da57b3c636cc0d1769396ce1cfa8991147f"
+  integrity sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
 
 "@types/sade@^1.7.2":
   version "1.7.2"
@@ -114,9 +114,9 @@ entities@^1.1.1, entities@~1.1.1:
   integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
 
 entities@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
-  integrity sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
+  integrity sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
 
 htmlparser2@^3.9.1:
   version "3.10.1"

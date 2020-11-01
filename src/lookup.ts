@@ -50,9 +50,21 @@ export async function lookupAction(
     const forms =
       meaning.forms.length > 0 ? `(${meaning.forms.join(', ')})` : '';
 
-    const heading = `${capitalize(meaning.partOfSpeech)}: ${
-      meaning.word
-    } ${forms}`;
+    let usage = '';
+
+    if (meaning.usage.length > 0) {
+      usage = `Usage: ${meaning.usage.join(', ')}`;
+
+      if (meaning.usageAlternative) {
+        usage += ` (${meaning.usageAlternative.where}: ${meaning.usageAlternative.word})`;
+      }
+    }
+
+    const heading =
+      k
+        .green()
+        .bold(`${capitalize(meaning.partOfSpeech)}: ${meaning.word} ${forms}`) +
+      (usage ? `\n${k.blue(usage)}` : '');
 
     const padding = meaning.definitions.length > 9 ? 2 : 1;
     const definitions: string[] = [];
@@ -86,7 +98,7 @@ export async function lookupAction(
       i++;
     }
 
-    sections.push([k.green().bold(heading), ...definitions].join('\n\n'));
+    sections.push([heading, ...definitions].join('\n\n'));
   }
 
   const labels = {
